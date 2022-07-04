@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.food-network{
+    display:flex;
+    padding: 0px 60px;
+    
+}
+
+.food-network h1{
+    font-size: 60px;
+    color: rgb(81, 71, 71);
+    margin-top: 150px;
+    padding: 50px 80px;
+    text-transform: capitalize;
+}
+.food-network span{
+    color: orangered;
+}
+.top-image{
+    width: 50%;
+    margin-top: 50px;
+}
+.food-network .food-detail p{
+    font-size: 25px;
+    color: rgb(141, 135, 135);
+    padding: 0px 75px;
+    margin-bottom: 36px;
+}
+ a{
+    text-decoration: none;
+    background-image: linear-gradient(to right,orange,tomato);
+    padding: 15px 35px;
+    color: rgb(254, 253, 253);
+    font-weight: 600;
+    border-radius: 20px;
+    margin-left: 75px;
+}
+#about-me{
+    display: flex;
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+#about-me .middle-image{
+    width: 100%;
+    margin-left:50px;
+}
+#about-me .about-me-detail h2{
+    text-align: left;
+    padding: 20px 75px;
+    margin-top: 200px;
+    font-size: 50px;
+    color: rgb(103, 94, 94);
+}
+
+#about-me .about-me-detail p{
+    padding: 20px 75px;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
