@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 .food-network{
@@ -63,3 +65,86 @@
     margin-bottom: 40px;
 }
 
+#recipies .recipie-detail h2{
+    font-size:35px;
+    text-align: center;
+    padding: 25px 10px;
+    color: rgb(72, 68, 68);
+}
+#recipies .recipie-detail p{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 180px;
+    margin: 0px 200px;
+    margin-bottom: 25px;
+    color: rgb(72, 68, 68);
+}
+#card{
+    display: flex;
+}
+#card .recipie-card{
+    border: 2px solid #eee;
+    box-shadow:2px 4px 8px 3px rgb(5, 5, 5);
+    border-radius: 20px;
+    margin:0px 50px;
+}
+#card .recipie-card img{
+    width: 80%;
+    padding: 25px 65px;
+}
+#card .recipie-card  h3{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 0px 65px;
+}
+
+#card .recipie-card  p{
+    padding: 25px 65px;
+    font-size: 20px;
+}
+
+#recipie-card{
+    border: 5px solid rgb(20, 20, 20);
+    box-shadow:2px 4px 8px 3px rgb(5, 5, 5);
+}
+
+#subscription .social{
+    display: flex;
+}
+
+#subscription{
+    width: 85%;
+    margin: 10px 120px;
+    margin-top: 110px;
+    padding: 20px 10px;
+    box-shadow:2px 4px 8px 3px rgb(5, 5, 5);
+    border-radius: 50px;
+    
+}
+#subscription .social h2{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 20px 50px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+#subscription .social p{
+    padding: 0px 10px;
+    text-align: center;
+    margin-left: 200px;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px 0;
+    color: #ddd;
+    background-color: black;
+}
+footer h2{
+    color: orangered;
+    margin-bottom: 20px;
+}
+footer p{
+    margin-bottom: 20px;
+}
