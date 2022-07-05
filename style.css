@@ -42,7 +42,7 @@
 }
 #about-me{
     display: flex;
-    background-image: url(../images/shapes/7.png);
+    background-image: url(../images/bgshape.png);
     background-repeat: no-repeat;
     background-size:100%;
 }
